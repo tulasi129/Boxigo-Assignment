@@ -1,0 +1,41 @@
+.lhs {
+  background-color: rgb(24, 45, 67);
+  padding: 20px;
+  border-right: 1px solid #ddd;
+  height: 300vh;
+  width: 300px;
+  color: white;
+}
+
+.lhs ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lhs li {
+  padding: 10px;
+  margin-top: 12px;
+}
+
+.lhs li:hover {
+  background-color: white;
+  cursor: pointer;
+  color: black;
+}
+
+.lhs li.active {
+  background-color: white;
+  color: black;
+}
+
+.lhs li a {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  align-items: center;
+}
+
+.rotate-left {
+  transform: rotate(180deg);
+}

@@ -1,3 +1,47 @@
+
+# Project Title
+boxigo-assignment
+
+## Features
+
+### My Moves
+- Displays a list of past and upcoming moves.
+- Allows users to view details and request quotes.
+- Integrated with a left side dashboard for easy navigation.
+
+### Left Side Dashboard
+- Provides quick access to key sections of the application.
+- Includes navigation links to "My Moves", "My Profile", "Get Quote", and "Logout".
+
+## Routing
+- `/moves`: My Moves page
+- `/profile`: My Profile page
+- `/quote`: Get Quote page
+- `/logout`: Logout page
+
+## Move Details Page
+Displays detailed information about each move, including:
+- From and to locations
+- Date and time
+- Flexibility options
+- Request quote button
+
+## Property Details Page
+Displays detailed information about properties, including:
+- Address
+- Type (e.g., 1 BHK, 3+ BHK, etc.)
+- Distance and duration
+- View more details button
+
+## Technologies Used
+- **ReactJS**: For building the user interface.
+- **React Router DOM**: For managing routing within the application.
+- **Tailwind CSS**: For styling and layout.
+- **Font Awesome**: For icons used in the navigation and UI components.
+- **React Spinners**: For displaying loading indicators.
+
+## Setup Instructions
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

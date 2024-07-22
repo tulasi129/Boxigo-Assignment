@@ -1,0 +1,34 @@
+.main-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.profile-wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-picture img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.profile-info {
+  text-align: center;
+}

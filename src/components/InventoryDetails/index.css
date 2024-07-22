@@ -1,0 +1,16 @@
+.inventory-details {
+  color: #f55b39;
+}
+.inventor-button {
+  background-color: lightgray;
+  border: 1px solid #e5e7eb;
+  transition-duration: 300ms;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  border-radius: 3px;
+  transition-property: transform;
+  width:90%;
+  margin-top: 10px;
+}
